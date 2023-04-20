@@ -1,0 +1,7 @@
+<div id="form-catcher" (window:resize)="onResize()" id="containerx" class="container bg-light">
+    <div *ngIf="url=='/main';"><app-home></app-home></div>
+    <div *ngIf="url=='/';"><app-home></app-home></div>
+    <div *ngIf="url=='/patients';"><app-patients></app-patients></div>
+    <div *ngIf="url=='/doctors';"><app-patients></app-patients></div>
+    <div *ngIf="url=='/appointments';"><app-patients></app-patients></div>
+</div>

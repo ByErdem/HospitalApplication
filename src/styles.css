@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~alertifyjs/build/css/alertify.min.css";
+@import "~alertifyjs/build/css/themes/bootstrap.min.css";
+
+/* Colors */
+.white{
+    background-color: white;
+}
+
+.dark-green{
+    background-color: #1e983b !important;
+}
+
+.dark-red{
+    background-color: #ec2121 !important;
+}
+
+.dark-blue{
+    background-color: #2f80e7 !important;
+}
+
+.light-green{
+    background-color: #27c24c !important;
+}
+
+.light-red{
+    background-color: #f05050 !important;
+}
+
+.light-blue{
+    background-color: #5d9cec !important;
+}
+
+
+.align-center
+{
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+
+
+
+.dx-tag {
+    width: 100% !important;
+}
+
+.dx-tag-content {
+    width: 100% !important;
+    background-color:transparent !important;
+    text-align:left !important;
+}
+
+    .dx-tag-content:hover {
+    width: 100% !important;
+    background-color:rgb(255, 246, 204) !important;
+}
+
+    .dx-texteditor-input-container {
+    display:block !important;
+    }
+
+.dx-texteditor-input-container .dx-tag-container .dx-native-click {
+    padding-right: 4px !important;
+}
+
+.dx-tag-container.dx-texteditor-input-container {
+padding-right:7px !important;
+}

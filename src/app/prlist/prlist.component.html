@@ -1,0 +1,30 @@
+<br/>
+<input (click)="checkbox_click($event)" id="chk1" type="checkbox"><label id="lbl_chk1" for="chk1">Lorem ipsum dolor sit amet, consectetur adipiscing elit</label>
+<br/>
+<input (click)="checkbox_click($event)" id="chk2" type="checkbox"><label id="lbl_chk2" for="chk1">sed do eiusmod tempor incididunt ut</label>
+<br/>
+<input (click)="checkbox_click($event)" id="chk3" type="checkbox"><label id="lbl_chk3" for="chk1">labore et dolore magna aliqua. Ut enim ad minim veniam</label>
+<br/>
+<input (click)="checkbox_click($event)" id="chk4" type="checkbox"><label id="lbl_chk4" for="chk1">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</label>
+<br/>
+<input (click)="checkbox_click($event)" id="chk5" type="checkbox"><label id="lbl_chk5" for="chk1">commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</label>
+<br/>
+<input (click)="checkbox_click($event)" id="chk6" type="checkbox"><label id="lbl_chk6" for="chk1">velit esse cillum dolore eu fugiat nulla pariatur.</label>
+<br/>
+<input (click)="checkbox_click($event)" id="chk7" type="checkbox"><label id="lbl_chk7" for="chk1">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</label>
+<br/>
+
+<div class="dx-field" style="width:500px;">
+    <div class="dx-field-label">Add custom items</div>
+    <div class="dx-field-value">
+        <dx-tag-box #tagBoxVar
+            [items]="editableProducts"
+            [acceptCustomValue]="true"
+            [searchEnabled]="false"
+            [showDataBeforeSearch]="false"
+            (onInitialized)="onInitialized($event)"
+            (onCustomItemCreating)="onCustomItemCreating($event)">
+        </dx-tag-box>
+    </div>
+</div>
+<br/>
